@@ -8,6 +8,8 @@ group :test, :development do
   gem 'rspec-rails'
 end
 
+gem 'pry'
+gem 'pry-nav'
 group :test do
   gem 'capybara'
 end
