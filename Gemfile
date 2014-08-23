@@ -10,8 +10,10 @@ end
 
 gem 'pry'
 gem 'pry-nav'
+
 group :test do
   gem 'capybara'
+  gem 'factory_girl_rails'
 end
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
